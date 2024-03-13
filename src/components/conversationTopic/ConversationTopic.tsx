@@ -22,7 +22,7 @@ const ConversationTopic: React.FC = () => {
 
   return (
     <Box
-      pb={{ xs: '166px', sm: '283px' }}
+      pb={{ xs: '166px', sm: '399px' }}
       bgcolor="#12111A"
       pl={{ xs: '20px', sm: '32px' }}
       pr={{ xs: '13px' }}
