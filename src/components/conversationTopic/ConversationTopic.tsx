@@ -22,11 +22,11 @@ const ConversationTopic: React.FC = () => {
 
   return (
     <Box
-      pb={{ xs: '0px', sm: '283px' }}
+      pb={{ xs: '166px', sm: '283px' }}
       bgcolor="#12111A"
       pl={{ xs: '20px', sm: '32px' }}
       pr={{ xs: '13px' }}
-      pt={{ xs: '56px', sm: '62px' }}>
+      pt={{ xs: '140px', sm: '173px' }}>
       <Box
         sx={{
           borderBottomStyle: 'solid',

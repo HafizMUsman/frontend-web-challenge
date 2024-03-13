@@ -6,6 +6,11 @@ import { Avatar, Box, Typography } from '@mui/material';
 const Header: React.FC = () => {
   return (
     <Box
+      position="fixed"
+      top="0"
+      left="0"
+      right="0"
+      zIndex={1000}
       minHeight={{ md: '111px' }}
       bgcolor={{ xs: '#12111A', sm: '#09090D' }}
       px={{ xs: '20px', sm: '32px' }}
