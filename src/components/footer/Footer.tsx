@@ -12,6 +12,11 @@ const Footer: React.FC = () => {
   const { conversationData } = useConversationData();
   return (
     <Box
+      position="fixed"
+      bottom="0"
+      left="0"
+      right="0"
+      zIndex="1000"
       minHeight={{ xs: '166px', sm: '116px' }}
       bgcolor={{ xs: 'rgba(9, 9, 13, 0.96)', sm: '#09090D' }}
       px={{ xs: '23px', sm: '32px' }}
